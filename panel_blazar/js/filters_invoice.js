@@ -63,7 +63,8 @@ function download_invoices_filter() {
     };
        // console.log(filter_download,json_invoices);
    const data_filter=JSON.stringify(generate_filter_invoices(filter_download,json_invoices));
-          JSONToCSVConvertor(data_filter, "Vehicle Report", true);
+   console.log(data_filter);
+          //JSONToCSVConvertor(data_filter, "Blazar Networks", true);
 
 
 
